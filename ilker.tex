@@ -1,0 +1,102 @@
+\documentclass[9pt]{cv-im}
+\urlstyle{rm}
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% Color schemes
+%%%%%%%%%%%%%%%%
+
+% Uncomment one of these if you'd rather
+% not use the default color scheme
+
+%\colorschemeTwo
+%\colorschemeThree
+%\colorschemeFour
+%\colorschemeFive
+\colorschemeSix
+
+%%%%%%%%%
+% Profile
+%%%%%%%%%
+
+\leftSidebar{}
+\cvname{Ilker \linebreak Mutlu} %your name
+\cvjobtitle{Software Developer}%your actual job position
+
+\addContact{\faEnvelope{}}{\href{mailto:ilker@rint.co.uk}{ilker@rint.co.uk}}
+\addContact{\faPhone{}}{+44 7780 966986}
+\addContact{\faGlobe{}}{\href{rint.co.uk}{rint.co.uk}}
+\addContact{\faTwitter{}}{\href{twitter.com/ilkermutlu}{twitter.com/ilkermutlu}}
+\addContact{\faLinkedin{}}{\href{linkedin.com/in/ilkermutlu}{linkedin.com/in/ilkermutlu}}
+
+%% Languages
+\addLanguage{PHP}
+\addLanguage{Laravel (Certified)}
+\addLanguage{Javascript}
+\addLanguage{Vue.js}
+\addLanguage{SQL}
+\addLanguage{Elasticsearch}
+\addLanguage{Redis}
+\addLanguage{*nix}
+\addLanguage{Golang (Beginner)}
+\addLanguage{Python (Beginner)}
+
+%% Education
+\addEducation{Software Development}{Self-taught}{Thousands of hours of dedication}
+\addEducation{MIr. in International Relations}{Middle East Technical University}{2005—2008}
+\addEducation{BA. in English Language and Literature}{Bilkent University}{2000—2005}
+
+\makeprofile
+
+\section{\faCode{} WORK EXPERIENCE}
+\workexp{Software Developer}{April 2014 — November 2018}{Seckin Publishing Inc.}{
+Main developer for \textbf{jurix.com.tr} which is the leading academic law journal database in Turkey which serves thousands of law firms and numerous university libraries.\newline\linebreak
+The project is a subscription based academic journal database which offers advanced indexing and searching of articles and content. The system is built with Laravel and it uses Vue.js and jQuery on the frontend. It also relies on other technologies such as Redis for queueing and cache, socket.io for event based communication, Elasticsearch for full-text indexing, searching and aggregations among others.\newline\linebreak
+Subscription management is built from scratch including banking integrations for recurring credit card payments as well as the WordML and IDML parsers for importing content.
+}
+
+\workexp{Project Manager, Software Developer}{April 2013 — April 2017}{YD Software}{
+Project management and software development on a range of backend and frontend systems for the Union of Chambers of Certified Public Accountants and Sworn-in Certified Public Accountants of Turkey, including e-learning, online examination and certification.
+
+\newenvironment{packed_items}{
+\begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{itemize}}
+
+\begin{packed_items}
+    \item PHP
+    \item PostgreSQL
+    \item Linux, FreeBSD
+    \item Javascript
+    \item SVN
+    \item Load Balancing
+    \item Audio and Video Streaming
+\end{packed_items}
+}
+
+\workexp{Freelance Developer and Consultant}{September 2012 - April 2013}{Self-employed}{
+Offered consultancy and maintenance services to existing and new clients on web projects.
+}
+
+\workexp{Co-Founder, Software Developer}{September 2011 - September 2012}{Verinova}{
+Backend and frontend development on a series of websites including:
+\begin{packed_items}
+    \item UNICEF Turkiye
+    \item MaxFM
+    \item basmatik.com
+\end{packed_items}
+}
+
+\workexp{Dept. General Manager}{2009 - August 2011}{Mikrobeta}{
+Assumed the role of deputy general manager. Reporting to the GM, supervised the lifecycle of a range of software projects, mainly focusing on the library automation and document management systems.
+}
+
+\workexp{Software Developer}{2006 - 2009}{Mikrobeta}{Taken part in the development of MiLAS, a prominent SaaS library automation system in Turkey being used by almost 1500 libraries in Turkey at the time as well as MiDAS which is MiLAS' counterpart in document automation and MiTOS - Open Access Academic Journals Management System.}
+
+\end{document} 
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
